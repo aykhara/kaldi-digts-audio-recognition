@@ -22,10 +22,9 @@ This is a sample code to create a custom model with Kaldi to recognise digits.
 ```
 
 - Install SRILM
-
-```console
 Download a file from [the link](http://www.speech.sri.com/projects/srilm/download.html). Then change the file name to "srilm.tgz" and put it under tools/.
-
+In my case, SRILM 1.7.3. ver was used.
+```console
 > sudo apt-get install -y gawk
 > extras/install_srilm.sh
 ```
