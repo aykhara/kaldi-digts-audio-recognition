@@ -5,7 +5,7 @@ This is a sample code to create a custom model with Kaldi to recognise digits.
 ## Prerequisites
 - Install Kaldi
 
-'''
+```console
 > git clone https://github.com/kaldi-asr/kaldi.git
 > cd kaldi
 > cat INSTALL
@@ -19,26 +19,26 @@ This is a sample code to create a custom model with Kaldi to recognise digits.
 
 > cd ../src
 > cat INSTALL # following the instruction
-'''
+```
 
 - Install SRILM
 
-'''
+```console
 Download a file from [the link](http://www.speech.sri.com/projects/srilm/download.html). Then change the file name to "srilm.tgz" and put it under tools/.
 
 > sudo apt-get install -y gawk
 > extras/install_srilm.sh
-'''
+```
 
 ## Check if a sample "yesno" works correctly on your environment
 There is an example to recognise yes or no in Hebrew. Just use it as test to see if Kaldi is installed on your environment.
 
-'''
+```console
 > cd ../egs/yesno/s5
 > sh run.sh
 ...
 %WER 0.00 [ 0 / 232, 0 ins, 0 del, 0 sub ] exp/mono0a/decode_test_yesno/wer_10
-'''
+```
 
 ## Additional prerequisites
 - Create a folder "digits" in kaldi/egs/ directly and put all files of this repo in the folder
@@ -59,10 +59,11 @@ There is an example to recognise yes or no in Hebrew. Just use it as test to see
 
 
 Now you're ready to run run.sh script.
-'''
+
+```console
 > cd ../egs/digits
 > sh run.sh
-'''
+```
 
 ## What each folder/file is doing
 
