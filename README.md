@@ -87,3 +87,6 @@ Now you're ready to run run.sh script.
 |cmd.sh|Setting local system jobs|
 |path.sh|Setting path|
 |run.sh|Running script|
+
+## Contributor
+Collaborating with @koheikawata.
