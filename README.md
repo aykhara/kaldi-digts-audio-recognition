@@ -1,4 +1,4 @@
-# Digts Audio Recognition with Kaldi
+# Digits Audio Recognition with Kaldi
 
 This is a sample code to create a custom model with Kaldi to recognise digits.
 
