@@ -89,4 +89,4 @@ Now you're ready to run run.sh script.
 |run.sh|Running script|
 
 ## Contributor
-Collaborating with @koheikawata
+Collaborating with [@koheikawata](https://github.com/koheikawata)
