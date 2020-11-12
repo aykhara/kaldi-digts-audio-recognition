@@ -87,5 +87,8 @@ Now you're ready to run run.sh script.
 |path.sh|Setting path|
 |run.sh|Running script|
 
+## Troubleshooting
+- [Error: bad variable name with WSL](./docs/bad_variables.md)
+
 ## Contributor
 Collaborating with [@koheikawata](https://github.com/koheikawata)
