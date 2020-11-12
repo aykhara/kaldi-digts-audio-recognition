@@ -29,7 +29,6 @@ export PATH=$PWD/utils/:$KALDI_ROOT/tools/openfst/bin:$PWD:$PATH
 When I checked `$PATH` on WSL 2, it includes Windows paths, which caused the error of bad variable name due to the space of `Program Files (x86)`.
 ```
 $ echo $PATH
-
 /home/kokawata/.pyenv/shims:/home/kokawata/.pyenv/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/mnt/c/Program Files (x86)/Common Files/Oracle/Java/javapath:/mnt/c/Program Files (x86)/Microsoft SDKs/Azure/CLI2/wbin:/mnt/c/Program Files/Common Files/Microsoft Shared/Microsoft Online Services:/mnt/c/Program Files (x86)/Common Files/Microsoft Shared/Microsoft Online Services:
 ```
 
