@@ -34,7 +34,7 @@ There is an example to recognise yes or no in Hebrew. Just use it as test to see
 
 ```console
 > cd ../egs/yesno/s5
-> sh run.sh
+> bash run.sh
 ...
 %WER 0.00 [ 0 / 232, 0 ins, 0 del, 0 sub ] exp/mono0a/decode_test_yesno/wer_10
 ```
