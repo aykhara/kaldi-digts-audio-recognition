@@ -61,7 +61,7 @@ Now you're ready to run run.sh script.
 
 ```console
 > cd ../egs/digits
-> sh run.sh
+> bash run.sh
 ```
 
 ## What each folder/file is doing
